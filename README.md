@@ -10,8 +10,8 @@ PHP driven web console for managing the MySQL database credentials for Dovecot m
 Modify the following in config.php
 
 	$servername = "localhost"; 	<---- servername 
-	$username = "root";		<---- database username
-	$password = "mysqladmin";	<---- database password
+	$username = "dbusername";	<---- database username
+	$password = "dbpassword";	<---- database password
 	$dbname = "servermail";		<---- database name
 
 
